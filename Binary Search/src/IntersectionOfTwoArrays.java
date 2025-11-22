@@ -1,8 +1,8 @@
 import java.util.*;
 public class IntersectionOfTwoArrays {
     public static void main(String[] args) {
-        int[] nums1 = {1 , 2, 4 , 5 , 3};
-        int[] nums2 = {4 , 3 , 1, 6, 10};
+        int[] nums1 = {1 , 2, 4 , 5 , 3 , 2};
+        int[] nums2 = {4 , 3 ,2, 1, 6, 10 ,2};
         System.out.println(Arrays.toString(intersectionUsingMap(nums1 , nums2)));
     }
 // done using hashset
